@@ -1,0 +1,49 @@
+{
+  "version": "3.4",
+  "log": [
+    {
+      "contracts/BatchTransfer.sol:BatchTransfer": {
+        "src": "contracts/BatchTransfer.sol:9",
+        "version": {
+          "withMetadata": "f509e7f8a7d3e5693b71590bc9f3148e263c766547bd0bcd2ae5fb0709cfa6a6",
+          "withoutMetadata": "f509e7f8a7d3e5693b71590bc9f3148e263c766547bd0bcd2ae5fb0709cfa6a6",
+          "linkedWithoutMetadata": "f509e7f8a7d3e5693b71590bc9f3148e263c766547bd0bcd2ae5fb0709cfa6a6"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "batchTransfer(address[],uint256[],address)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.19"
+      },
+      "contracts/BatchTransfer.sol:IERC20": {
+        "src": "contracts/BatchTransfer.sol:4",
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "transfer(address,uint256)",
+          "balanceOf(address)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.2",
+          "flat": false,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.19"
+      }
+    }
+  ]
+}
